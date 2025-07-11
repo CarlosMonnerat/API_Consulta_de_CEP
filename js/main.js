@@ -15,7 +15,7 @@ const limpaFormulario = () =>{
 };
 
 
-const cepValido = (cep) => cep.length == 8 && /^[0-9]+$/.test(cep);             //Testa se "cep" todos os caracteres estão na lista de 0 a 9
+const cepValido = (cep) => cep.length == 8 && /^[0-9]+$/.test(cep);
 
 const pesquisarCep = async () =>{
     limpaFormulario();
@@ -24,7 +24,7 @@ const pesquisarCep = async () =>{
     if(cepValido(cep)){
         const response = await fetch(url);
         const dados = await response.json();
-        if(dados.hasOwnProperty('erro')){                                       //Se este objeto possui a propriedade "erro"
+        if(dados.hasOwnProperty('erro')){
             alert('CEP não encontrado. Verifique e tente novamente!');
         }else{
             preencheFormulario(dados);
