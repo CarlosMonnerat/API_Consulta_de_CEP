@@ -6,7 +6,13 @@ Desenvolvido com **HTML**, **CSS** e **JavaScript puro**, ele utiliza a API púb
 
 ---
 
+## 🎥 Demonstração
 
+<p align="center">
+  <img src="./assets/cep.gif" width="600" alt="Demonstração do projeto">
+</p>
+
+---
 
 ## 🔗 Acesse o Projeto
 
