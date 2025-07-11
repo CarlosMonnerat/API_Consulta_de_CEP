@@ -18,7 +18,7 @@ Desenvolvido com **HTML**, **CSS** e **JavaScript puro**, ele utiliza a API púb
 
 Para visualizar o projeto em funcionamento, clique no link abaixo:
 
-👉 [**Acessar o site**](https://youtube.com)
+👉 [**Acessar o site**](https://carlosmonnerat.github.io/API_Consulta_de_CEP/)
 
 
 ---
