@@ -4,7 +4,7 @@ const preencheFormulario = (dados) =>{
     document.getElementById('endereco').value = dados.logradouro;
     document.getElementById('bairro').value = dados.bairro;
     document.getElementById('cidade').value = dados.localidade;
-    document.getElementById('estado').value = dados.estado;    
+    document.getElementById('estado').value = dados.uf;    
 };
 
 const limpaFormulario = () =>{
